@@ -19,7 +19,6 @@ ALTER COLUMN Saledate date;
 
 
 
-
 -- Populate Property Address data
 
 SELECT a.ParcelID, a.PropertyAddress,b.ParcelID, b.PropertyAddress, ISNULL(a.PropertyAddress, b.PropertyAddress)
